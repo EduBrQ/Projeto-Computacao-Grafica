@@ -1,0 +1,42 @@
+<!--AQUI ADICIONO MEU PLANO CARTESIANO VIA JQUERY-->
+<div class="cartesiano"></div>
+
+<!--AQUI ADICIONO MINHA RETA-->
+<div id="content"></div>
+
+<!--AQUI ADICIONO MINHA TABELA E MEUS CAMPOS DE TEXTO-->
+
+<div class="row">
+
+    <div class="row">
+        <h4>Algorítimo do DDA</h4>
+
+        <div class="col-lg-3">
+            <input placeholder="X1" id="x1" value="" type="text" class="form-control">
+        </div>
+        <div class="col-lg-3">
+            <input placeholder="Y1" id="y1" value="" type="text" class="form-control">
+        </div>
+        <div class="col-lg-3">
+            <input placeholder="X2" id="x2" value="" type="text" class="form-control">
+        </div>
+        <div class="col-lg-3">
+            <input placeholder="Y2" id="y2" value="" type="text" class="form-control">
+        </div>
+        <div class="col-lg-3">
+            <input placeholder="tx" id="tx" value="" type="text" class="form-control">
+        </div>
+        <div class="col-lg-3">
+            <input placeholder="ty" id="ty" value="" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="row">
+        <br>
+        <div class="col-lg-3">
+            <button class="btn btn-info" id="add"> Desenhar</button>
+            <button class="btn btn-info" onclick="translation(); " id="trans"> Translacao</button>
+        </div>
+    </div>
+
+</div>

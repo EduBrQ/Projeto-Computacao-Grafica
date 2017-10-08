@@ -1,0 +1,38 @@
+/* Desenha a tela do plano cartesiano */
+.cartesiano {
+    width: 1008px;
+    height: 400px;
+    border: 3px solid rgb(183, 183, 183);
+    position: relative;
+    margin: 40px 0 0 50px;
+    background-color: #ccc;
+    background-image: linear-gradient(white 1px, transparent 1px),
+    linear-gradient(90deg, white 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 10px 10px, 10px 10px;
+    margin-left: 0;
+
+}
+#circulo {
+    position:relative;
+    margin:auto;
+    width:400px;
+    height:400px;
+    vertical-align:center;
+}
+
+/*Seta as propriedades do pixel*/
+.pixel {
+    margin-top: -197px;
+    margin-left: -97px;
+    background-color: #020303;
+    position: absolute;
+}
+
+/*Estilo do content principal*/
+#content{
+    position: absolute;
+    z-index: 1000;
+    margin-left: 600px;
+}
